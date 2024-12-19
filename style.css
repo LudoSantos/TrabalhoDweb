@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    border: 0%;
+}
+
+.Informação{
+
+    position: absolute;
+    top: 35%;
+}
+
+.cabeçalho{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(207, 20, 20);
+}
+.home{
+    position: absolute;
+    right: 45%;
+    top: 35%;
+    font-size: 120%;
+    text-decoration: none;
+    color: white;
+}
+.rodape{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(207, 20, 20);
+    bottom: -20%;
+}
+#autorais{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    right: 44%;
+    bottom: 20%;
+    font-size: 100%;
+}
