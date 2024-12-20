@@ -3,6 +3,11 @@
     border: 0%;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(207, 20, 20);
+}
+
 .Informação{
 
     position: absolute;
@@ -15,12 +20,12 @@
 .Titulo{
     position: absolute;
     left: 25%;
-    width: 50%;
+    width: 70%;
 }
 
 .espaço{
     position: relative;
-    margin-top: 3% ;
+    margin-top: 5% ;
 }
 
 .noticia{
@@ -53,7 +58,7 @@
     height: 10%;
     width: 100%;
     background-color: rgb(207, 20, 20);
-    bottom: -20%;
+    bottom: -50%;
     display: flex; 
     align-items: center; 
     justify-content: center;
@@ -67,8 +72,10 @@
 
 #links {
     position: absolute;
-    top: 80%;
+    top: 115%;
     color: rgb(207, 20, 20);
+    left: 10%;
+    width: 80%;
 }
 
 #famosos {
@@ -77,6 +84,6 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    top: 105%;
+    top: 135%;
     left: 42%;
 }
