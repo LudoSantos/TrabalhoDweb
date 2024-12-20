@@ -32,33 +32,51 @@
     margin: 0%;
 }
 
+
 .cabeçalho{
     position: absolute;
     height: 10%;
     width: 100%;
     background-color: rgb(207, 20, 20);
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 }
 .home{
-    position: absolute;
-    right: 45%;
-    top: 35%;
     font-size: 120%;
     text-decoration: none;
     color: white;
+    margin: 0%;
 }
-
 .rodape{
     position: absolute;
     height: 10%;
     width: 100%;
     background-color: rgb(207, 20, 20);
-    bottom: -60%;
+    bottom: -20%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 }
 #autorais{
     text-decoration: none;
     color: white;
-    position: absolute;
-    right: 44%;
-    bottom: 20%;
     font-size: 100%;
+    margin: 0%;
+}
+
+#links {
+    position: absolute;
+    top: 80%;
+    color: rgb(207, 20, 20);
+}
+
+#famosos {
+    margin: 0%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    top: 105%;
+    left: 42%;
 }
